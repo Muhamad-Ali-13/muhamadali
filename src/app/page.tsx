@@ -65,7 +65,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-900 text-white fixed w-full top-0 z-20">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold">Your Name</a>
+        <a href="#" className="text-2xl font-bold">Muhamad Ali</a>
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,9 +110,9 @@ const About = () => (
           priority
         />
       </motion.div>
-      <h1 className="text-4xl font-bold mb-4">Hi, I&apos;m Your Name</h1>
+      <h1 className="text-4xl font-bold mb-4">Hi, I&apos;m Muhamad Ali Akbar Abil Aziz</h1>
       <p className="text-lg text-gray-300 mb-4 max-w-2xl mx-auto">
-        A passionate developer skilled in Flutter, React, and Firebase, dedicated to building responsive and user-friendly applications.
+        A passionate developer skilled in Flutter, Laravel, React, and Firebase, dedicated to building responsive and user-friendly applications.
       </p>
       <motion.a
         href="#contact"
@@ -180,15 +180,15 @@ const Education = () => {
   const education = [
     {
       degree: 'Bachelor of Computer Science',
-      institution: 'Universitas Indonesia',
-      period: '2019 - 2023',
+      institution: 'Politeknik LP3I Kampus Tasikmalaya',
+      period: '2023 - 2026',
       description: 'Graduated with a focus on web and mobile application development, with coursework in algorithms, databases, and software engineering.',
     },
     {
       degree: 'High School Diploma',
-      institution: 'SMA Negeri 1 Jakarta',
-      period: '2016 - 2019',
-      description: 'Specialized in Science, with extracurricular activities in programming and robotics clubs.',
+      institution: 'SMA Negeri 1 Ciawi',
+      period: '2020 - 2023',
+      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
   ];
 
@@ -391,7 +391,7 @@ const Contact = () => {
 // Footer
 const Footer = () => (
   <footer className="bg-blue-900 text-white p-6 text-center">
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>&copy; 2025 Muhamad Ali. All rights reserved.</p>
   </footer>
 );
 
